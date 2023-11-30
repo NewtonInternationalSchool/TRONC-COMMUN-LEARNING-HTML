@@ -6,6 +6,49 @@
     <title>Adam's Website</title>
 </head>
 <body>
-    
+    <h1>Welcome to my Website</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quibusdam labore nulla libero tempora et magnam quam, optio voluptas excepturi perspiciatis doloribus eum nobis iste architecto obcaecati reprehenderit omnis animi?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias laboriosam quibusdam excepturi corporis unde esse ut culpa similique, debitis quae, architecto eveniet sunt facilis tempora nobis, itaque ipsa libero? Dolorum.</p>
+    <!-- 4 types of tag names that we open and never close: br hr img & input -->
+    <hr>
+    <!-- <a href="https://google.com"><img src="images/bentley.png" alt="bentley image" width="300"></a> -->
+    <form action="">
+        <label for="rabia24">Username:</label>
+        <!-- To add a mandatory field, you need to add the attribute required as shown below -->
+        <input type="text" id="rabia24" name="user" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="pass">password:</label>
+        <input type="password" id="pass" name="pwd"><br><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="date"><br><br>
+        <label for="cash">Money in your bank account in USD:</label>
+        <input type="number" id="cash" name="money" step="100"><br>
+
+        <!-- IT VERY IMPORTANT TO KEEP IN MIND THAT IN RADIO, IF YOU WANT TO HAVE ONE SINGLE OPTION, YOU NEED TO SPECIFY THE SAME NAME IN EVERY RADIO OPTION -->
+        <p>What is your favorite TV Show?</p>
+        <input type="radio" id="vikings" name="tvshow">
+        <label for="vikings">Vikings</label>
+        <input type="radio" id="walking" name="tvshow">
+        <label for="walking">Walking Dead</label>
+        <input type="radio" id="stranger" name="tvshow">
+        <label for="stranger">Stranger Things</label>
+        <input type="radio" id="gossip" name="tvshow">
+        <label for="gossip">Gossip Girl</label>
+
+        <p>What are your Favorite Video Games?</p>
+        <input type="checkbox" id="fc24" name="games">
+        <label for="fc24">FC24</label>
+        <input type="checkbox" id="gow" name="games">
+        <label for="gow">God of War</label>
+        <input type="checkbox" id="lol" name="games">
+        <label for="lol">League of Legends</label>
+        <input type="checkbox" id="mine" name="games">
+        <label for="mine">Minecraft</label>
+        <input type="checkbox" id="sf" name="games">
+        <label for="sf">Street Fighter</label><br><br>
+        
+        <input type="submit" value="Ghina Rockssss">
+    </form> 
 </body>
 </html>
