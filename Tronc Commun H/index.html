@@ -7,23 +7,38 @@
 </head>
 <body>
     <h1>Welcome to my Website</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quibusdam labore nulla libero tempora et magnam quam, optio voluptas excepturi perspiciatis doloribus eum nobis iste architecto obcaecati reprehenderit omnis animi?</p>
+    <p>Lorem ipsum</p>
+    <p>Hello</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias laboriosam quibusdam excepturi corporis unde esse ut culpa similique, debitis quae, architecto eveniet sunt facilis tempora nobis, itaque ipsa libero? Dolorum.</p>
+    
+    <div>
+        <img src="./images/bentley.png" alt="" width="200px">
+        <a href="http://google.com">Click to visit my website</a>
+    </div>
+
+
     <!-- 4 types of tag names that we open and never close: br hr img & input -->
-    <hr>
+   
     <!-- <a href="https://google.com"><img src="images/bentley.png" alt="bentley image" width="300"></a> -->
     <form action="">
-        <label for="rabia24">Username:</label>
         <!-- To add a mandatory field, you need to add the attribute required as shown below -->
-        <input type="text" id="rabia24" name="user" required><br><br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email"><br><br>
-        <label for="pass">password:</label>
-        <input type="password" id="pass" name="pwd"><br><br>
-        <label for="dob">Date of Birth:</label>
-        <input type="date" id="dob" name="date"><br><br>
-        <label for="cash">Money in your bank account in USD:</label>
-        <input type="number" id="cash" name="money" step="100"><br>
+        <hr>
+        <div>
+            <label for="rabia">Username:</label>
+            <input type="text" id="rabia" name="user" placeholder="Write you First Name" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <br>
+        <div>
+            <label for="pass">password:</label>
+            <input type="password" id="pass" name="pwd">
+        </div>
+        
+        <hr>
 
         <!-- IT VERY IMPORTANT TO KEEP IN MIND THAT IN RADIO, IF YOU WANT TO HAVE ONE SINGLE OPTION, YOU NEED TO SPECIFY THE SAME NAME IN EVERY RADIO OPTION -->
         <p>What is your favorite TV Show?</p>
@@ -49,6 +64,15 @@
         <label for="sf">Street Fighter</label><br><br>
         
         <input type="submit" value="Ghina Rockssss">
+
+        <!--
+            - Elements that we open but don't close: img, br, input, hr,
+            - Different Input types: text, password, email, date, number, checkbox, radio
+            - There are two types of Elements: Block vs Inline Elements:
+                + Block Elements take 100% of the page width: div, h1, h2, h3 ...h6, p, hr
+                + Inline Elements take the space needed only: img, a (anchor tag), input, label
+        -->
+        
     </form> 
 </body>
 </html>

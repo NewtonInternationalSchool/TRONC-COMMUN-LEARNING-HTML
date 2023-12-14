@@ -4,27 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mohamed Ali's Website</title>
+    <style>
+        div{ margin-bottom: 5px;}
+    </style>
 </head>
 <body>
     <h1>Welcome to my Website</h1>
     <h2>About me:</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus officiis in voluptates corrupti eius temporibus minus porro tenetur quasi alias commodi, labore consequuntur maxime. Quae labore adipisci molestiae esse dolorem facere iste. Aliquid perspiciatis minima laborum rem fugiat nihil, debitis obcaecati omnis deserunt cum doloribus.</p>
+    <b>Ryan</b>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus autem quo reprehenderit aspernatur atque odio aliquid commodi quod hic doloremque! Eaque accusamus totam repellat esse deserunt nam excepturi eum pariatur!</p>
+    <div style="background-color: pink;">
+        <hr>
+        <img src="./images/porsche-image.jpg" alt="" width="150px">
+        <p>R</p>
+        <img src="./images/porsche-image.jpg" alt="" width="150px">
+    </div> 
+    <div style="background-color: blue;">
+        <a href="https://google.com">Click to visit my website</a>
+    </div>
     <hr>
-    <!-- 4 Tags that we open and never close: br hr img input -->
+
+
+    <!-- 
+        Important things to keep in mind:
+        - 4 Tags that we open and never close: br, hr, img, input
+        - Types of inputs covered in this class: text, email, password, number, date, radio, checkbox
+        - There are two types of Elements: Block vs Inline
+            + Block Elements take 100% of the page width: h1, h2, h3, ...h6, p, hr, div
+            + Inline Elements occupy only the space needed: img, a (anchor tag), input, label, br
+    -->
+
+
 
     <!-- In Radio, always have the same value in name otherwise it will not work -->
     <form action="">
-        <label for="un">Username:</label>
-        <input type="text" id="un" name="user"><br><br>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email"><br><br>
-        <label for="pass">password:</label>
-        <input type="password" id="pass" name="pwd"><br><br>
-        <label for="dob">Date of Birth:</label>
-        <input type="date" id="dob" name="date"><br><br>
-        <label for="cash">Money in your bank account in USD:</label>
-        <input type="number" id="cash" name="money"><br><br>
+        <div>
+            <label for="un">Username:</label>
+            <input type="text" id="un" name="user">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div>
+            <label for="pass">password:</label>
+            <input type="password" id="pass" name="pwd">
+        </div>
+        <div>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="date">
+        </div>
+        <div>
+            <label for="cash">Money in your bank account in USD:</label>
+            <input type="number" id="cash" name="money">
+        </div>
+        
+        
+        
 
         <p>What is your favorite TV Show?</p>
         <input type="radio" id="vikings" name="122">
@@ -52,8 +88,6 @@
         
         <input type="submit" value="Click me to send Information">
     </form>
-    <div style="background-color: red; height: 500px;">
-
-    </div>
+    
 </body>
 </html>

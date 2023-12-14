@@ -6,22 +6,62 @@
     <title>Simohamed's Website</title>
 </head>
 <body>
-    <!-- <h1>Welcome to my website</h1>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, quibusdam delectus odit velit, vitae natus eaque ducimus nulla mollitia ullam molestias. Iure similique in dolor maiores totam, error deserunt. Repellat molestiae incidunt, praesentium perferendis quidem ratione repellendus voluptatem quia, labore hic officiis, odit tempora assumenda dolor voluptates dignissimos. Doloribus, vel deleniti, explicabo voluptatem quam laborum illum voluptates ullam magni modi suscipit rerum tempore earum labore reprehenderit veritatis neque nihil voluptatum tenetur assumenda sequi exercitationem. Culpa provident, odio possimus exercitationem cumque similique voluptatum. Consectetur quasi eum blanditiis aliquid ad. Vel architecto nesciunt, autem dignissimos debitis maiores accusamus.
+    <h1>Welcome to my website</h1>
+    <p>Lorem ipsum,
     </p>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis animi sequi, at dolorum enim repudiandae. Mollitia dolore reiciendis blanditiis cum quisquam recusandae vel autem corrupti, reprehenderit, repellat perferendis cupiditate iste!</p>
-    <img src="images/yasmineiscool/messi.jpg" alt="Picture of Messi" width="100px"><br>
-    <a href="https://google.com" target="_blank">Click here to visit my website</a> -->
+    <img src="images/yasmineiscool/messi.jpg" alt="Picture of Messi" width="100px">
+    <a href="https://google.com" target="_blank">Click here to visit my website</a>
+
+
     <form action="">
-        <label for="firstname">Give me your firstname:</label>
-        <input type="text" id="firstname" name="yourfirstname"><br><br>
-        <label for="lastname">Give me your lastname:</label>
-        <input type="text" id="lastname" name="yourlastname"><br><br>
-        <label for="pwd">Give me your password</label>
-        <input type="password" id="pwd" name="yourpassword"><br><br>
-        <input type="submit" value="Send me the information">
-        <input type="button" value="Send me the information">
+        <label for="fname">Give me your First Name: </label>
+        <input type="text" id="fname" name="fname" required>
+        <br><br>
+        <label for="tahaisgreat">Give me your Password</label>
+        <input type="password" id="tahaisgreat" name="pass" required>
+        <br><br>
+        <label for="uremail">Your Email</label>
+        <input type="email" id="uremail" name="uremail" required>
+        <br><br>
+        <label for="db">Give me your Date of Birth</label>
+        <input type="date" id="db" name="db" required>
+        <br><br>
+        <label for="money">How much money in your Bank Account</label>
+        <input type="number" id="money" name="money" step="1000" required>
+        <br><br>
+        <p>What is your favorite movie?</p>
+        <input type="radio" id="spider" name="movie">
+        <label for="spider">Spiderman</label><br>
+        <input type="radio" id="aven" name="movie">
+        <label for="aven">Avengers</label><br>
+        <input type="radio" id="iron" name="movie">
+        <label for="iron">Ironman</label><br>
+        <input type="radio" id="dark" name="movie">
+        <label for="dark">The Dark Knight</label><br><br>
+<hr>
+        <p>What is your favorite movie?</p>
+        <input type="checkbox" id="spider1" name="movie">
+        <label for="spider1">Spiderman</label><br>
+        <input type="checkbox" id="aven1" name="movie">
+        <label for="aven1">Avengers</label><br>
+        <input type="checkbox" id="iron1" name="movie">
+        <label for="iron1">Ironman</label><br>
+        <input type="checkbox" id="dark1" name="movie">
+        <label for="dark1">The Dark Knight</label><br><br>
+        <input type="submit" value="Click to send me your information">
     </form>
-    
+    <div>
+        
+    </div>
+
+    <!-- For Your Revision:
+    - Tag that are opened but never closed: br, img, input, hr
+    - Input type covered during class: Password/ Submit/ Text/Button/ Number / Date / Checkbox / Radio / Email
+    - We distinguish two types of elements: Block vs Inline:
+    + Block Elements: h1, h2..., h6 , p, hr, br,
+    + Inline Elements: img, a, input, label
+    - Div => Container
+     -->
 </body>
 </html>
